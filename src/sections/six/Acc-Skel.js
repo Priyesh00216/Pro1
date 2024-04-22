@@ -1,5 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 // import { styled } from '@mui/material/styles';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
@@ -24,8 +25,11 @@ function SkeletonChildrenDemo(props) {
     borderColor: 'divider',
     backgroundColor: 'background.paper',
   };
-  
-  
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/auth/jwt/login?returnTo=%2Fdashboard'); 
+  };
   
   return (
     <Paper elevation={6} className='w-auto h-auto m-4'>
@@ -59,7 +63,7 @@ function SkeletonChildrenDemo(props) {
       </div>
       <div className="justify-content-center align-self-center m-3 flex-fill">
           {loading ? null : (
-            <Button variant="outlined" className='px-5' >Sign Out</Button>
+            <Button variant="outlined" className='px-5' onClick={handleClick} >Sign Out</Button>
           )
         }
       </div>
