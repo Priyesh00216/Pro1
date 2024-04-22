@@ -14,7 +14,7 @@ export default function OneView() {
 
   return (
     <Container maxWidth={settings.themeStretch ? false : 'xl'}>
-      <Typography variant="h4" className='p-3'> Dashboard of Customers </Typography>
+      <Typography variant="h4" className='p-3'> Netwrok Dashboard </Typography>
 
       {/* <Box
         sx={{

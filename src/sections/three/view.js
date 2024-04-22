@@ -16,7 +16,7 @@ export default function ThreeView() {
 
   return (
     <Container maxWidth={settings.themeStretch ? false : 'xl'}>
-      <Typography variant="h4"> Pending Tickets </Typography>
+      <Typography variant="h4"> Call Entry </Typography>
       <Grid maxWidth="xs" marginTop={2}>
         <ViewTables/>
       </Grid>

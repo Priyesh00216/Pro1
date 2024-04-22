@@ -15,7 +15,7 @@ export default function TwoView() {
 
   return (
     <Container >
-      <Typography variant="h4"> Total Tickets </Typography>
+      <Typography variant="h4"> Total Calls </Typography>
        <MainDash/>
     </Container>
   );
