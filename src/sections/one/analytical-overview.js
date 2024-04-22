@@ -46,8 +46,8 @@ export default function OverviewAnalyticsView() {
         <div className="d-flex flex-row justify-content-around align-self-center">
           <div className=" w-50 p-5">
             <AnalyticsWidgetSummary
-              title="Added Tickets"
-              total={135230}
+              title="Added Calls"
+              total={1350}
               color="info"
               icon={<img alt="icon" src="/assets/icons/glass/ic_glass_users.png" />}
             />
@@ -55,8 +55,8 @@ export default function OverviewAnalyticsView() {
 
           <div className="w-50 p-5">
             <AnalyticsWidgetSummary
-              title="Total Tickets"
-              total={72332323}
+              title="Total Calls"
+              total={7230}
               color="warning"
               icon={<img alt="icon" src="/assets/icons/glass/ic_glass_buy.png" />}
             />
@@ -64,8 +64,8 @@ export default function OverviewAnalyticsView() {
 
           <div className="w-50 p-5">
             <AnalyticsWidgetSummary
-              title="Closed Tickets"
-              total={234000}
+              title="Closed Calls"
+              total={2340}
               color="error"
               icon={<img alt="icon" src="/assets/icons/glass/ic_glass_message.png" />}
             />
