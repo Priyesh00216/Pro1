@@ -28,7 +28,7 @@ function SkeletonChildrenDemo(props) {
 
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/auth/jwt/login?returnTo=%2Fdashboard'); 
+    navigate('/auth/jwt'); 
   };
   
   return (
